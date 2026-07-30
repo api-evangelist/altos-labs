@@ -1,8 +1,28 @@
 aid: altos-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/altos-labs.png
 name: Altos Labs
-description: 'Altos Labs is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Altos Labs is a biotechnology company pursuing cellular rejuvenation programming
+  to restore cell health and resilience, with the goal of reversing disease, injury, and
+  the disabilities that can occur throughout life. Launched publicly in January 2022 with
+  roughly $3 billion in initial funding from investors including Jeff Bezos and Yuri Milner,
+  the company operates geographically distributed Institutes of Science in the San Francisco
+  Bay Area, Cambridge (UK), and San Diego, alongside an Institute of Medicine and an
+  Institute of Computation. Altos combines experimental biologists with computational
+  scientists to translate laboratory discoveries in cell biology into transformative
+  medicines. It was surfaced as a portfolio company of General Catalyst and added to the
+  API Evangelist network; as a research-stage life-sciences company it currently exposes
+  no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/altos-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: general-catalyst-portfolio
@@ -14,6 +34,11 @@ modified: '2026-07-17'
 tags:
 - Company
 - Healthcare
+- Biotechnology
+- Life Sciences
+- Longevity
+- Cellular Rejuvenation
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.altoslabs.com
+- type: GitHubOrganization
+  url: https://github.com/altos-labs
+- type: PrivacyPolicy
+  url: https://www.altoslabs.com/privacy-policy
+- type: DomainSecurity
+  url: security/altos-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
